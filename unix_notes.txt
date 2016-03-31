@@ -1,0 +1,31 @@
+touch [filename]  to create a new file with the filename as specified by the brackets
+
+nano filename to edit the file.
+You also got more familiar with text names by using Markdown. Review the tutorial to get more familiar. 
+When reading files, you can go "head -n" or "tail -n" [ filename]where n represents how many lines you are from the top (head) or bottom (tail)
+
+
+ls gives you a list of what's going on
+man is like a manual, so use man ls to explore the command ls
+
+ls -F lists which are files (with an F) and which are 
+
+You can specify a directory via a relative path or an absolute path. the absolute path means we go " ls /" and if we want to list the specifics of whatever is inside, we need to just list things out "ls /usr/bin"
+When opening files, you can automate some processes by using the tab key.
+
+To make a directory, use mkdir `/"Directory Name" 
+* It is good practice to have your directory names capitalized!!!  
+It is also good practice to not put spaces in file names
+
+To get to your directory you're using, just use cd "Directory Name" 
+CD is for change directory
+mv is to move stuff. It's flexible
+You can change filenames by saying mv [original filename] [newfilename] (no brackets)
+Or
+you can move multiple files as
+mv [filename 1] [filename 2] [filename 3] ... [Directory Name]
+then you can view your results as
+ls [Directory Name]
+
+Or... mv __* Directoryname  where every file that starts with __ will be moved into that directory 
+You can also copy files. Use command cp filename to copy it
